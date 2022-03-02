@@ -36,5 +36,6 @@ fn main() {
     println!("b rc count after changing a = {}", Rc::strong_count(&b));
     println!("a rc count after changing a = {}", Rc::strong_count(&a));
 
-    println!("a next item = {:?}", a.tail());
+    // uncomment for a stack overflow
+    // println!("a next item = {:?}", a.tail());
 }
