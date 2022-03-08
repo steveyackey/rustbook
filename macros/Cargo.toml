@@ -1,0 +1,10 @@
+[workspace]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+members = [
+    "hello_macro",
+    "macro_usage",
+    "hello_macro/hello_macro_derive"
+]
